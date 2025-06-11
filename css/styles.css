@@ -2863,7 +2863,8 @@ img.u-pull-left {
 
 .s-header__menu-toggle.opaque {
     background-color : black;
-}
+    border-radius:   : 15px;
+  }
 
 .s-header__menu-text {
     display        : block;
@@ -2874,6 +2875,7 @@ img.u-pull-left {
     text-transform : uppercase;
     letter-spacing : 0.3em;
     color          : white;
+    font-weight    : 700;
 }
 
 .s-header__menu-icon {
@@ -3153,17 +3155,18 @@ img.u-pull-left {
     letter-spacing : .2em;
     color          : white;
     margin-top     : 0;
-    background-color: black; 
+    padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.8); 
 }
 
 .s-intro__title {
-    --text-title-size : 10.4rem;
+    --text-title-size : 16.4rem;
     --text-multiplier : 1;
     font-weight       : 700;
     font-size         : calc(var(--text-title-size) * var(--text-multiplier));
-    line-height       : 1.1154;
+    line-height       : 0.9;
     color             : white;
-    margin-top        : 0;
+    margin-top        : 20rem;
     margin-bottom     : var(--vspace-2_5);
 }
 
